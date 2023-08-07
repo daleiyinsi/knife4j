@@ -94,6 +94,7 @@ function SwaggerBootstrapUi(options) {
     if (basePath != '' && basePath != '/') {
       this.url = options.url || basePath + '/v3/api-docs/swagger-config';
     } else {
+
       this.url = options.url || 'v3/api-docs/swagger-config';
     }
     //  console.log(this.url)
@@ -186,7 +187,7 @@ function SwaggerBootstrapUi(options) {
     enableFilterMultipartApiMethodType: 'POST', // 默认保存类型
     enableRequestCache: true, // 是否开启请求参数缓存
     enableCacheOpenApiTable: false, // 是否开启缓存已打开的api文档
-    enableHost: false,// 是否启用Host
+    enableHost: true,// 是否启用Host
     enableHostText: '',// 启用Host后文本
     language: options.i18n || 'zh-CN' // 默认语言版本
   };

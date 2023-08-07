@@ -14,8 +14,8 @@
       </a>
     </div>
     <div class="knife4j-menu">
-      <a-menu key="Menu" theme="dark" mode="inline" @openChange="handleOpenChange" @select="selected"
-        :openKeys="openKeys" :selectedKeys="selectedKeys" style="padding: 16px 0; width: 100%">
+      <a-menu key="Menu" theme="dark" mode="inline" @openChange="handleOpenChange" @select="selected" :openKeys="openKeys"
+        :selectedKeys="selectedKeys" style="padding: 16px 0; width: 100%">
         <ThreeMenu :menuData="menuData" />
       </a-menu>
     </div>

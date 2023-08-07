@@ -313,7 +313,6 @@ const utils = {
     try {
       if (this.checkUndefined(basePath) && this.strNotBlank(basePath) && basePath != '/') {
         var pathKeys = Object.keys(paths || {});
-        console.log("pathKeys,", pathKeys)
         var pathKeyLength = pathKeys.length;
         var num = 0;
         // https://gitee.com/xiaoym/knife4j/issues/I3B5BK

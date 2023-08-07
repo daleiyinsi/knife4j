@@ -631,7 +631,8 @@ export default {
           if (KUtils.checkUndefined(settings["enableHost"])) {
             this.enableHost = settings.enableHost;
             // 判断Host的值
-            var tmpHostValue = settings.enableHostText;
+            // var tmpHostValue = settings.enableHostText;
+            var tmpHostValue = this.api.host;
             if (KUtils.checkUndefined(tmpHostValue)) {
               if (!tmpHostValue.startWith("http")) {
                 tmpHostValue = "http://" + tmpHostValue;

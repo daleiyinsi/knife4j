@@ -28,7 +28,7 @@ module.exports = {
     proxy: {
       "/": {
         target: 'http://localhost:8990/',
-        //target: 'http://localhost:17813',
+        // target: 'http://192.168.18.241:10098/doc/front',
         /* target: 'http://knife4j.xiaominfo.com/', */
         ws: true,
         changeOrigin: true
